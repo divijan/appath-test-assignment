@@ -1,0 +1,13 @@
+# .gitignore
+*~
+
+# project below top level
+project/project/
+project/target/
+
+# ignore IntelliJ workspace (but not other project files)
+.idea/
+.idea_modules
+
+# ignore sbt output
+target/
